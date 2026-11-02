@@ -44,3 +44,4 @@ test.describe('ReqRes API - Service Object Model (SOM) Test Suite', () => {
     await userApi.assertStatus(response, 204);
   });
 });
+

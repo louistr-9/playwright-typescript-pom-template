@@ -41,3 +41,4 @@ export class UserApi extends BaseApiClient {
     return await this.delete(`users/${id}`);
   }
 }
+

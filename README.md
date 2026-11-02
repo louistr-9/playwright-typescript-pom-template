@@ -190,3 +190,4 @@ test('Should login successfully', async ({ loginPage, page }) => {
 
 This project is licensed under the [MIT License](LICENSE).
 Feel free to use it as a foundation for your personal portfolio, interview assignments, or enterprise automation projects.
+
