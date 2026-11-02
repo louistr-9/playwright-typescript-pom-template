@@ -1,0 +1,38 @@
+{
+  "name": "playwright-typescript-pom-template",
+  "version": "1.0.0",
+  "description": "Production-ready Playwright + TypeScript test automation boilerplate featuring Page Object Model (POM), Service Object Model (SOM), Custom Fixtures, Cross-browser testing, and GitHub Actions CI/CD pipeline.",
+  "author": "Louis Tran & Assistant",
+  "license": "MIT",
+  "keywords": [
+    "playwright",
+    "typescript",
+    "page-object-model",
+    "pom",
+    "service-object-model",
+    "som",
+    "fixtures",
+    "automation-testing",
+    "ci-cd",
+    "github-actions"
+  ],
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=\"Mobile Chrome\"",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.3"
+  }
+}
